@@ -17,3 +17,7 @@
 ## Contributors
 
 > Add a list of contributors
+
+- [May Ramsay](https://github.com/mayramsay)
+
+
