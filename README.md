@@ -16,4 +16,4 @@
 
 ## Contributors
 
-> Nello796 (github.com/Nello796)
+- [May Ramsay](https://github.com/mayramsay)
