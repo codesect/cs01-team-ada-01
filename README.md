@@ -16,4 +16,4 @@
 
 ## Contributors
 
-> Add a list of contributors
+> Nello796 (github.com/Nello796)
