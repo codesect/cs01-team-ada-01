@@ -17,3 +17,5 @@
 ## Contributors
 
 - [May Ramsay](https://github.com/mayramsay)
+- [Krisztian Katona](https://github.com/KatonaCsaba)
+- [Nello796] (https://github.com/Nello796)
