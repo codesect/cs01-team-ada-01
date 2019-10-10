@@ -10,6 +10,12 @@
 
 > Add a list of tools used like frameworks, libraries, task runners, test runners, bundlers, linters, template engines, etc.
 
+- [HTML]
+- [CSS]
+- [JavaScript]
+- [Jquery]
+- [SASS]
+
 ## Install and Build
 
 > Describe how to install, build, and test your app
