@@ -10,15 +10,19 @@
 
 > Add a list of tools used like frameworks, libraries, task runners, test runners, bundlers, linters, template engines, etc.
 
-- [HTML]
-- [CSS]
-- [JavaScript]
-- [Jquery]
-- [SASS]
+- HTML
+- CSS
+- JavaScript
+- Jquery]
+- SASS
 
 ## Install and Build
 
 > Describe how to install, build, and test your app
+
+  This app doesn't need any particular tool to run as it's just a simple web page.
+  To open the page just download the .ZIP file, extract it and open the index.html file.  
+  The other way is to clone the repository in your pc, find the folder and open the index.html file.
 
 ## Contributors
 
