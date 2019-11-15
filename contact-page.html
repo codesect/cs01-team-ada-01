@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Page: </title>
+    <link rel="stylesheet" href="contact-page.css">
+    <script src="contact-page.js" type="text/javascript"></script>
+</head>
+
+<body class="body"><!--1st JS function-->
+    <section class="first">
+        <div class="nav-box">
+            <div id="nav-logo">
+                <img src="" alt="">
+                <!--insert logo img here-->
+            </div>
+            <div class="navbar">
+                <ul class="navlist">
+                    <li id="link-home-pagpe"><a href="#home-page">Home</a></li>
+                    <li id="link-about-page"><a href="#about-page">About</a></li>
+                    <li id="link-portfolio-page"><a href="#portfolio-page">Portfolios</a></li>
+                    <li id="link-blog-page"><a href="#blog-page">Blog</a></li>
+                    <li id="link-contact-page"><a href="#contact-page">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--this is the nav bar that will be identical across each page -->
+    </section>
+
+    <section class="second">
+        <div class="banner-box" style="background-image: url(http://cliquetechmedia.com/wp-content/uploads/2017/12/contact-us-background.jpg); background-size: contain;">
+            <div class="title-msg">
+                <h1>Contact Us</h1><br><br>
+                <h2>We'd love to hear from you. <br><br> please let us know what do you think of this website.</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="third">
+        <div class="form-box">
+            <p id="form-title">Please leave your information in the form below, your contact information will not be shared to any third parties.</p><br>
+            <div id="error-msg"></div>
+            <form action="#" onsubmit="return validateForm()" id="myForm"><!--2nd JS function-->
+                <div class="contact-info">
+                    <label for="first-name">First Name: <abbr title="This field is mandatory" aria-label="required">*</abbr></label>
+                    <input type="text" id="first-name" name="contact-info" placeholder="First Name" required minlength="3" maxlength="100">
+                    <label for="last-name">Last Name: <abbr title="This is mandatory" aria-label="required">*</abbr></label>
+                    <input type="text" id="last-name" name="contact-info" placeholder="Last Name" required>
+                    <label for="email">Email Address: <abbr title="This is mandatory" aria-label="required">*</abbr></label>
+                    <input type="email" id="email" name="email" placeholder="me@example.com" required>
+                    <label for="company-name">Company Name: </label>
+                    <input type="text" id="company-name" name="contact-info" placeholder="Company Name">
+                    <label for="url">Company Url: </label>
+                    <input type="url" id="url" name="contact-info" placeholder="www.example.com">
+                    <label for="phone">Phone Number: <abbr title="This is mandatory" aria-label="required">*</abbr></label>
+                    <input type="tel" id="phone" name="phone" placeholder="Format: 123-456-7890" required min="10" max="15" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    <label for="textarea">Leave Your Message: <abbr title="This is mandatory" aria-label="required">*</abbr></label>
+                    <textarea id="comment" name="contact-info" placeholder="How can we help?" required></textarea>
+                </div>
+
+                <div class="btn">
+                    <button type="button" id="submit-btn" onsubmit="return clickSubmitButton()">Submit</button>
+                    <!--Need to create the function "clickSubmitButton" in the JS file-->
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+<footer>
+    <span class="footer">@2019, all rights reserved.</span>
+</footer>
+
+</html>
