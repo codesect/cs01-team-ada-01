@@ -1,0 +1,95 @@
+body {
+    font-family: "Varela", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.nav-box {
+    padding: 1em 2em;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.navlist li {
+    display: inline;
+    list-style-type: none;
+    letter-spacing: 0.15em;
+}
+
+li a {
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: large;
+    color: black;
+}
+
+.banner-box {
+    display: flex;
+    height: 75vh;
+    position: relative;
+    background-image: url(http://cliquetechmedia.com/wp-content/uploads/2017/12/contact-us-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title-msg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: x-large;
+    text-transform: capitalize;
+}
+
+.form-box {
+    padding: 1rem 2rem;
+}
+
+.error-msg {
+    margin: 10px;
+    padding: 10px;
+    background: red;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: 150px 300px 150px 300px;
+    grid-gap: 25px 20px;
+}
+
+.contact-info label {
+    text-align: left;
+}
+
+.contact-info textarea {
+    width: 100%;
+    padding: 30px;
+}
+
+.button {
+    background-color: #616ecc;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: background 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: #661166;
+}
