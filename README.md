@@ -13,7 +13,7 @@
 - HTML
 - CSS
 - JavaScript
-- Jquery]
+- Jquery
 - SASS
 
 ## Install and Build
